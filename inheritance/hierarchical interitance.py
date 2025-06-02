@@ -1,3 +1,4 @@
+# 0. Hierarchical Inheritance Example (Original Code)
 class parent:
     def __init__(self):
         pass
@@ -20,7 +21,7 @@ class child2(parent):
 
 c = child1()
 c.func_Child()
-
-
+# Output: child 1..
 c2 = child2()
-c.func_Child() # error.. 
+c2.func_Child() 
+# output: AttributeError: 'child2' object has no attribute 'func_Child' 
