@@ -241,7 +241,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=10000) as executor:
     # result1 = f1.result()  # This will block until the result is available
     # result2 = f2.result()  # This will block until the result is available
     # result3 = f3.result()  # This will block until the result is available
-    
+    # print(f1, f2, f3)
     # # all results are available now and printed simultaneously
     # print(result1)
     # print(result2)
