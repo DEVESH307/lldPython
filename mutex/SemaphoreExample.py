@@ -114,7 +114,7 @@
 
 
 # 4. semaphore Example with producer-consumer (Modified Code)
-from threading import Thread, Semaphore, Lock
+from threading import *
 import time
 import random
 
