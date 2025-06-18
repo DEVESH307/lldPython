@@ -7,5 +7,8 @@ class CharacterFactory:
         if player_type == "knight":
             return Knight()
 
+        if player_type == "knightv2":
+            return KnightV2()
+
         if player_type == "archer":
             return Archer()

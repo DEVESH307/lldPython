@@ -11,6 +11,10 @@ class KnightFactory:
     def create_player(self):
         return Knight()
 
+class KnightV2Factory:
+    def create_player(self):
+        return KnightV2()
+
 class ArcherFactory:
     def create_player(self):
         return Archer()

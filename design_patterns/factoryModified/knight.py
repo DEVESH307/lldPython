@@ -6,4 +6,4 @@ class Knight(Player):
 
 class KnightV2(Player):
     def attack(self):
-        print("Knight2 attacks with sword++!")
+        print("KnightV2 attacks with sword++!")
