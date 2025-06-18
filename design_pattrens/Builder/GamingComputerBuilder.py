@@ -4,7 +4,7 @@ from Computer import Computer
 
 class GamingComputerBuilder(ComputerBuilder):
 
-    def __init__(self, ):
+    def __init__(self):
         self.ram = None
         self.cpu = None
         self.gpu = None
