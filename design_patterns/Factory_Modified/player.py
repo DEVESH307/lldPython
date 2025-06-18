@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-class Player(ABC):
 
+class Player(ABC):
     @abstractmethod
     def attack(self):
         pass
