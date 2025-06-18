@@ -1,4 +1,4 @@
-from lldPython.design_patterns.Factory_Modified.player import Player
+from lldPython.design_patterns.factoryModified.player import Player
 
 class Knight(Player):
     def attack(self):

@@ -1,5 +1,5 @@
-from lldPython.design_patterns.Factory_Modified.factory import KnightFactory, ArcherFactory
-from lldPython.design_patterns.Factory_Modified.characterFactory import CharacterFactory
+from lldPython.design_patterns.factoryModified.factory import KnightFactory, ArcherFactory
+from lldPython.design_patterns.factoryModified.characterFactory import CharacterFactory
 
 def create_player(player_type):
     if player_type == "knight":

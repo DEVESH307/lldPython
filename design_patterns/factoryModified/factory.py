@@ -1,5 +1,5 @@
-from lldPython.design_patterns.Factory_Modified.knight import Knight, KnightV2
-from lldPython.design_patterns.Factory_Modified.archer import Archer
+from lldPython.design_patterns.factoryModified.knight import Knight, KnightV2
+from lldPython.design_patterns.factoryModified.archer import Archer
 from abc import ABC, abstractmethod
 
 class PlayerFactory(ABC):
