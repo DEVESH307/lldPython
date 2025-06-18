@@ -1,7 +1,7 @@
 from vacationPackageBuilder import VacationPackageBuilder
 from vacationPackage import VacationPackage
 
-class VacationPackageBuilderDirector:
+class VacationPackageDirector:
     def __init__(self, builder: VacationPackageBuilder):
         self._tour_builder = builder
 
@@ -14,8 +14,8 @@ class VacationPackageBuilderDirector:
         self._tour_builder.set_budget(2000.0)
         self._tour_builder.set_num_travelers(2)
         self._tour_builder.set_vacation_type("Cultural")
-        self._tour_builder.add_activity("Eiffel Tower Visit")
-        self._tour_builder.add_activity("Louvre Museum Tour")
+        self._tour_builder.set_activity("Eiffel Tower Visit")
+        self._tour_builder.set_activity("Louvre Museum Tour")
 
     def get_vacation_package(self) -> VacationPackage:
         """Get the constructed vacation package."""
