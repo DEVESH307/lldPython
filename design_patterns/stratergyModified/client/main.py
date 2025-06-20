@@ -8,3 +8,4 @@ if __name__ == '__main__':
     algorithm = "merge"
     sorted_data = sorting.sort_data(data, algorithm)
     print(f"Sorted data using {algorithm} sort: {sorted_data}")
+# Output: Sorted data using quick sort: [11, 12, 22, 25, 34, 64, 90]
