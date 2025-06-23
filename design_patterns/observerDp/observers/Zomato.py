@@ -1,4 +1,4 @@
-from design_patterns.observerDp.observers.observer import Observer
+from design_patterns.observerDpModified.observers.observer import Observer
 
 
 class Zomato(Observer):
